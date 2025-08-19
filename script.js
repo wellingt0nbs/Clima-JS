@@ -1,5 +1,5 @@
-const chave = "fb6e4c90a45e2802607238ca4cacb266";
-const accessKey = "0f0M9Kt5FL5j7cCkbi1-bXQjFjeNmzG-_s97l_zvxx4";
+const chave = "coloque sua chave wheater api gratis aqui";
+const accessKey = "aqui a chave do unsplash";
 const entrada=document.querySelector('.entradaCidade');
 const botao=document.querySelector('.btnEnviar');
 const tempo=document.querySelector('.tempo')
