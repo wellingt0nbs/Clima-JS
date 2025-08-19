@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(58, 75, 121, 0.548);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1.3s ease-in-out;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgba(0, 0, 0, 0.349);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.700);
+    color: white;
+    flex-grow:.1;
+    align-items: center;    
+}
+
+::placeholder{
+    color: rgb(196, 196, 196);
+    text-align: center;
+}
+
+.btnInp{
+    margin: 5%;
+    display: flex;
+    gap: 5%;
+}
+
+.btnEnviar{
+    background-color:rgba(30, 30, 30, 0.445);
+    box-shadow: 2px black;
+    border-radius: 100%;
+    padding: 2%;
+    border: 1px solid rgb(77, 77, 77);
+}
+
+img{
+    height: 2.3vh;
+}
+
+.btnEnviar:active {
+  box-shadow: 2px #000000;  /* sombra menor */
+  transform: translateY(2px);  /* botão “afunda” */
+}
+
+input{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    font-size: .9em;
+    margin: 5%;
+    text-align: center;
+}
+
+.cidade{
+    font-size: 1.5em;
+}
+
